@@ -1,3 +1,102 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #1f2937;
+}
+
+
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.hero {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+
+.hero h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 20px;
+    color: #475569;
+}
+
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+.section {
+    padding: 60px 10%;
+}
+
+
+.section h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.products {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.card {
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+}
+
+
+.card h3 {
+    color: #2563eb;
+}
+
+
+footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
