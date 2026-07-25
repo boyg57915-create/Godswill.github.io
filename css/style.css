@@ -31,21 +31,27 @@ nav a {
 
 
 .hero {
-    padding: 80px 10%;
+    padding: 120px 10%;
     text-align: center;
-    background-color: #f8fafc;
+    background: linear-gradient(135deg, #f8fafc, #eef5ff);
 }
 
 
 .hero h2 {
-    font-size: 45px;
-    margin-bottom: 20px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #0f172a;
+    margin-bottom: 25px;
 }
 
 
 .hero p {
     font-size: 20px;
+    line-height: 1.8;
     color: #475569;
+    max-width: 750px;
+    margin: 0 auto 35px;
 }
 
 
