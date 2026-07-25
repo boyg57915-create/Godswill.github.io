@@ -280,3 +280,63 @@ footer {
 .feature-card p {
     color: #475569;
 }
+
+.pricing {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+
+.pricing h2 {
+    font-size: 40px;
+}
+
+
+.pricing > p {
+    color: #475569;
+    margin-bottom: 50px;
+}
+
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+.price-card {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+
+.price-card h4 {
+    font-size: 40px;
+    color: #2563eb;
+}
+
+
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+}
+
+
+.featured {
+    border: 3px solid #2563eb;
+}
+
+
+.price-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
