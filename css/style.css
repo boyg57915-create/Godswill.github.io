@@ -326,6 +326,59 @@ footer {
 }
 
 
+.pricing {
+    padding: 80px 10%;
+    text-align: center;
+    background: #f8fafc;
+}
+
+
+.pricing h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.pricing > p {
+    color: #475569;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+.price-card {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+
+.price-card:hover {
+    transform: translateY(-8px);
+}
+
+
+.price-card h4 {
+    font-size: 42px;
+    color: #2563eb;
+}
+
+
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+}
+
 .featured {
     border: 3px solid #2563eb;
 }
