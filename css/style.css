@@ -31,11 +31,30 @@ nav a {
 
 
 .hero {
-    padding: 120px 10%;
-    text-align: center;
+    padding: 100px 10%;
     background: linear-gradient(135deg, #f8fafc, #eef5ff);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: left;
 }
 
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
 
 .hero h2 {
     font-size: 52px;
