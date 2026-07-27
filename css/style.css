@@ -445,3 +445,36 @@ footer {
     margin-top: 30px;
 
 }
+footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+footer h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #cbd5e1;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #3b82f6;
+}
